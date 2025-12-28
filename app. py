@@ -1,0 +1,10 @@
+slang = {
+    "anna": "Brother or close friend",
+    "scene ledu": "No problem",
+    "tight ra": "Drunk",
+    "mass": "Very impressive",
+    "lite teesko": "Ignore it"
+}
+
+text = input("Enter local slang: ").lower()
+print(slang.get(text, "Meaning not found"))
